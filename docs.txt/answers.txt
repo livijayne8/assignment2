@@ -1,0 +1,43 @@
+1. Paste the console output you saved at the end of step 3.C
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+2. How many commits have been done to the repository (not only by you, but by anyone) so far? Write the git command you used to get this information
+8 commits, I used git rev-list --count HEAD
+
+3. When was the README.md file modified last? Write the git command you used to get this information
+The README.md file was modified last on October 23rd, 2025 at 7:28pm. I used the git command
+git log.
+
+4. Mention two reasons why branches are used in a Git repository
+One reason why branches are used in a git repository are that they allow you to work
+on new features of a project in isolation from other branches so that if something goes wrong in your 
+code it does not affect the entire project and you can have a version that is still stable and works.
+Another reason is that branches allow you to organize your code development if you are working with other 
+people on the same project and each developer can have a seperate branch for their own part and then the 
+seperate branches can be merged. 
+
+5. What is the difference between git log and git status?
+The difference between git log and git status is that git log shows a log of all of the commits that have 
+occurred within the repository with the author and their email and the date with all of the commit comments, 
+whereas git status shows what branch you're on, what changes need to be commited, and the branch status. 
+
+6. What command would you use to see the commits where “Vehicle.h” was one of the committed files?
+git log Vehicle.h
+
+7. What command would you use to see the commits whose commit message contains the word “file”?
+git log --grep="file"
+
+8. In the context of object-oriented programming (I) What is inheritance? (II) What is polymorphism? (III) What is encapsulation?
+(I) Inheritance is the concept of sub-classes sharing the properties of a parent class and inheriting those properties 
+while also having some of their own properties. Inheritance allows us to model the common properties among a group of things, such 
+as how all vehicles have wheels, both a car and motorcycle object could inherit from vehicle and thus share the attribute of wheels.
+(II) Polymorphism is 
+(III) Encapsulation is using getter and setter functions to hide the initialization and retrieval of attributes of a class behind a 
+function that may require input validation to ensure that illegal values are not used to set values for an attribute.
+
+9. What is the main difference between the “Dictator and Lieutenants” workflow and the “Integration manager” workflow? 
+
+10.  How would a team of 100 developers benefit from following the “Dictator and Lieutenants” workflow instead of the “Centralized” workflow?
