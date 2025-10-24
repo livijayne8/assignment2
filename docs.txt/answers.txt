@@ -1,3 +1,6 @@
+Went through the Git Lab tutorials - 10/22/25
+Set up GitHub account in ~ September 2025
+
 1. Paste the console output you saved at the end of step 3.C
 On branch master
 Your branch is up to date with 'origin/master'.
@@ -34,10 +37,18 @@ git log --grep="file"
 (I) Inheritance is the concept of sub-classes sharing the properties of a parent class and inheriting those properties 
 while also having some of their own properties. Inheritance allows us to model the common properties among a group of things, such 
 as how all vehicles have wheels, both a car and motorcycle object could inherit from vehicle and thus share the attribute of wheels.
-(II) Polymorphism is 
+(II) Polymorphism is the idea in OOP which says that classes can have methods which can be overwritten or overloaded to allow the class to 
+take different forms.  
 (III) Encapsulation is using getter and setter functions to hide the initialization and retrieval of attributes of a class behind a 
 function that may require input validation to ensure that illegal values are not used to set values for an attribute.
 
 9. What is the main difference between the “Dictator and Lieutenants” workflow and the “Integration manager” workflow? 
+The main difference is that the "Integration-Manager Workflow" involves just one manager who integrates the changes made by the developers into the blessed repository, 
+while the "Dictator and Lieutenants" workflow involves multiple integration managers (or lieutenants) who manage different parts of the 
+project and who give those changes to the dictator who can actually commit changes to the blessed repository.
 
 10.  How would a team of 100 developers benefit from following the “Dictator and Lieutenants” workflow instead of the “Centralized” workflow?
+A team of 100 developers would benefit more from the "Dictator and Lieutenants" workflow than the “Centralized” workflow because the dictator and lieutenants
+workflow works better for large projects. This is because the lieutenants allow for greater organization of the project. If everyone could just push
+changes to the blessed repository themselves there would be many more errors in the code than if each section of the project had its own manager before changes could be 
+pushed onto the main project. 
